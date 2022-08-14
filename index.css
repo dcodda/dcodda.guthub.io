@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Righteous&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+.main p {
+    text-align: left;
+}
+
+.wrapper {
+    /*background-color: rgb(32, 30, 29);*/
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu li {
+    list-style: none;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.marca {
+    padding: auto;
+}
+
+.menu a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+}
+
+.main {
+    margin: auto;
+    width: 80vw;
+    height: 80vw;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    margin-top: -100px;
+}
+
+.info {
+    text-align: left;
+    text-align: center;
+    align-items: center;
+}
+
+.sobre_mi {
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+    align-items: center;
+}
+
+.texto {
+    text-align: left;
+}
+
+.sobre_mi img {
+    display: flex;
+    justify-content: space-between;
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.container-contact {
+    padding: 3em;
+    margin: 0 auto;
+}
+
+.contacto h2 {
+    font-size: 3em;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin-top: 2em;
+}
+
+.form input {
+    padding: 10px 20px;
+    margin-bottom: 1em;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    /* escribir color para cambiarle el color a la escritura en caso de que el fondo moleste */
+}
+
+.form textarea {
+    height: 150px;
+    background: none;
+    padding: 1.5em;
+    border: 1px solid #fff;
+}
+
+.btn_submit {
+    padding: 10px 20px;
+    margin: 1em;
+    border: none;
+    text-transform: uppercase;
+    /*background-color:; Cambiarselo despues*/
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* Ponerle background color */
+}
+
+.content h2 {
+    font-size: 3em;
+}
+
+.content h5 {
+    font-size: 1.5em;
+}
+
+.social-network {
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    margin-top: 1em;
+}
+
+.social-network img {
+    max-width: 100px;
+    max-height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
